@@ -15,13 +15,20 @@
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
   <script>
     $(function() {
+      $('h1').click(function() {
+        $(this).css('color', 'gray').css('font-family', 'Cursive').fadeOut(3000);
+      });
 
+      $('p').click(function() {
+        $(this).css('background-color', 'white').css('color', 'cyan').css('font-family', 'Times New Roman').css('font-size','36px').animate({fontSize: '7em'}, "fast");
+      });
     });
   </script>
 </head>
 
 <body>
-
+  <h1>Kaily Sanchez</h1>
+  <p>One day till break starts!!</p>
 </body>
 
 </html>
